@@ -26,7 +26,10 @@ export default {
   // nuxt modules
   modules: [
     '@nuxtjs/pwa',
+    '@nuxt/content',
   ],
+
+  content: {},
 
   // build config
   build: {
